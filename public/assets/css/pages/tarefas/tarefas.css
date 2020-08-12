@@ -1,0 +1,67 @@
+.line-through {
+    text-decoration: line-through;
+}
+
+.feedbak-container blockquote {
+    font-size: 14px;
+}
+
+.group-checklist {
+    padding: 10px !important;
+}
+
+.check-item-line a {
+    visibility: hidden;
+}
+
+.check-item-line:hover {
+    background-color: rgba(183, 183, 183, 0.1);
+}
+
+.check-item-line:hover a {
+    visibility: visible;
+}
+
+.feedback-content a {
+    visibility: hidden;
+
+}
+
+.feedback-content:hover {
+    background-color: rgba(183, 183, 183, 0.1);
+}
+
+.feedback-content:hover a {
+    visibility: visible;
+    color: red !important;
+}
+
+.logo img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.custom-control {
+    margin: 0px !important;
+}
+
+.tr-tarefa-atrasada {
+    border-left: 3px solid red !important;
+}
+
+.tr-tarefa-a-vencer {
+    border-left: 3px solid orange;
+}
+
+.tr-tarefa-proxima-etapa {
+    border-left: 3px solid blue !important;
+
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid darkgrey !important;
+}

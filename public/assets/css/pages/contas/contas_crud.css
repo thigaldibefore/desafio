@@ -1,0 +1,16 @@
+.dropzone {
+    padding: 0 !important;
+}
+
+.dz-image {
+    width: 140px !important;
+    height: 140px !important;
+}
+
+.dz-image img {
+    width: 100% !important;
+}
+.dropzone .dz-message {
+	text-align: center;
+	margin: 1.3em 0;
+}
